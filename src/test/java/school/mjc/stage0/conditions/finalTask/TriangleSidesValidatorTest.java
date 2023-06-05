@@ -5,7 +5,6 @@ import school.mjc.stage0.base.BaseIOTest;
 import org.junit.jupiter.api.Test;
 
 class TriangleSidesValidatorTest extends BaseIOTest {
-
     @Test
     void validate3PointsBuildUpValidTriangle() {
         TriangleSidesValidator triangleSidesValidator = new TriangleSidesValidator();
