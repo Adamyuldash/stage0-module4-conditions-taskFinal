@@ -15,7 +15,6 @@ public class CoordinatePane {
         } else {
             quadrant = "zero";
         }
-
         System.out.println(quadrant);
     }
 }

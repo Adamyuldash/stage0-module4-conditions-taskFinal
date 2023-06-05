@@ -24,27 +24,19 @@ public class SeasonDeterminer {
                 System.out.println("Autumn");
                 break;
             default:
-                // Handles the condition if number entered
-                // is not among the valid 12 months
                 System.out.println("Wrong month number");
                 break;
         }
     }
-
-    // Driver Code
     public static void main(String abc[])
     {
         int M = 5;
-        System.out.println("For Month number: "
-                + M);
+        System.out.println("For Month number: "  + M);
         int m = M;
-
         M = 10;
-        System.out.println("For Month number: "
-                + M);
+        System.out.println("For Month number: " + M);
         findSeason(M);
     }
-
     private static void findSeason(int m) {
     }
 }
